@@ -30,5 +30,45 @@ public class MyInteger_Test {
 	public void test() {
 		assertTrue(1==1);
 	}
+	@Test
+	public void testIsEvenInt() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsOddInt() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsPrimeInt() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsEvenMyInteger() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsOddMyInteger() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsPrimeMyInteger() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testEqualsInt() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testEqualsMyInteger() {
+		fail("Not yet implemented");
+	}
+	
 
 }
