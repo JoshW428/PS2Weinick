@@ -3,7 +3,7 @@ package base;
 public class MyInteger {
 	private int iValue;
     //constructor
-    public MyInteger(int n){
+    MyInteger(int n){
         iValue = n;
     }
     public int getIValue(){
@@ -22,7 +22,7 @@ public class MyInteger {
         return true;
     }
     public static boolean isEven(int n){
-        return n%2==0;
+        return (n%2==0);
     }
     public static boolean isOdd(int n){
         return !isEven(n);

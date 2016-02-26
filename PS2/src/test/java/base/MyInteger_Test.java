@@ -9,7 +9,9 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class MyInteger_Test {
-
+	MyInteger integer1 = new MyInteger(2);
+	MyInteger integer2 = new MyInteger(7);
+	MyInteger integer3 = new MyInteger(12);
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
@@ -27,48 +29,30 @@ public class MyInteger_Test {
 	}
 
 	@Test
-	public void test() {
-		assertTrue(1==1);
-	}
-	@Test
 	public void testIsEvenInt() {
-		fail("Not yet implemented");
+		assertEquals(integer1.isEven(),true);
+		assertEquals(integer2.isEven(),false);
+		assertEquals(integer3.isEven(),true);
+		fail("failed isEven");
 	}
 
 	@Test
 	public void testIsOddInt() {
-		fail("Not yet implemented");
+		assertEquals(integer1.isOdd(),false);
+		assertEquals(integer2.isOdd(),true);
+		assertEquals(integer3.isOdd(),false);
+		fail("failed isODD");
 	}
 
 	@Test
 	public void testIsPrimeInt() {
-		fail("Not yet implemented");
+		assertEquals(integer1.isPrime(),true);
+		assertEquals(integer2.isPrime(),true);
+		assertEquals(integer3.isPrime(),false);
+		fail("failed isPrime");
 	}
 
-	@Test
-	public void testIsEvenMyInteger() {
-		fail("Not yet implemented");
-	}
 
-	@Test
-	public void testIsOddMyInteger() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testIsPrimeMyInteger() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testEqualsInt() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testEqualsMyInteger() {
-		fail("Not yet implemented");
-	}
 	
 
 }
